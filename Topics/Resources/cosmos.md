@@ -8,4 +8,4 @@ Start with [[Topics/Cosmos/Algorithms & Data Structures]], which groups related 
 
 - [[Topics/External Reading/Index]] — locally authored notes for selected linked articles.
 - [[Topics/Cosmos/Exact Duplicate Content]] — note on repeated archive boilerplate.
-- [[Topics/Coverage Gaps]] — subjects that needed additional standalone coverage.
+- [[Coverage Gaps]] — subjects that needed additional standalone coverage.

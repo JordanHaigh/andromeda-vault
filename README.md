@@ -1,6 +1,10 @@
-# Software Engineering Knowledge Vault
+<p align="center">
+  <img src="assets/obsidian-galaxy-banner.png" alt="A spiral galaxy formed from a glowing network of connected knowledge notes" width="100%">
+</p>
 
-A linked Obsidian vault covering software engineering, cloud services, algorithms, and practical development guides.
+<h1 align="center">Andromeda Vault</h1>
+
+<p align="center">An interconnected Obsidian library for software engineering, cloud services, algorithms, and practical development.</p>
 
 ## Start here
 

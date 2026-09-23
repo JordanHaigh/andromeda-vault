@@ -23,7 +23,7 @@ The extracted GitHub working folders have been removed; readable Markdown materi
 - [[Topics/Collections/Design Tools]]
 - [[Topics/Collections/Build by Reimplementation]]
 - [[Topics/External Reading/Index]]
-- [[Topics/Coverage Gaps]]
+- [[Coverage Gaps]]
 - [[Topics/Cosmos/Exact Duplicate Content]]
 - [[Topics/Software Engineering/Index]]
 - [[Topics/Cloud/Azure/Index]]
