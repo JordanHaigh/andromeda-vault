@@ -1,0 +1,38 @@
+Need to regenerate csv and tfrecord
+
+python xml_to_csv.py
+
+python generate_tfrecord.py --csv_input=data/train_labels.csv  --output_path=data/train.record
+python generate_tfrecord.py --csv_input=data/test_labels.csv  --output_path=data/test.record
+
+
+protoc object_detection/protos/*.proto --python_out=.
+
+export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+
+rm -rf data images ssd_mobilenet_v1_coco_2017_11_17 training
+
+ cp -r data/ ../models/research/object_detection
+ cp -r images/ ../models/research/object_detection
+ cp -r ssd_mobilenet_v1_coco_2017_11_17/ ../models/research/object_detection
+ cp -r training/ ../models/research/object_detection
+
+python3 train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_pets.config
+
+###################################################################
+Launch tensorboard to view results
+
+tensorboard --logdir=training/
+
+#############################################################
+Launch jupyter and test images
+########################################################
+rm -rf keys_graph
+
+python3 export_inference_graph.py  --input_type image_tensor --pipeline_config_path=training/ssd_mobilenet_v1_pets.config --trained_checkpoint_prefix=training/model.ckpt-4459 --output_directory keys_graph
+
+ssh -i DevJordanSshIntoMachineLearning.pem ec2-user@ec2-13-211-104-161.ap-southeast-2.compute.amazonaws.com -L localhost:8888:localhost:8888
+
+
+####################################################################
+scp -i DevJordanSshIntoMachineLearning.pem ec2-user@ec2-13-211-104-161.ap-southeast-2.compute.amazonaws.com:/ec2-user/models/research/object_detection/images /here

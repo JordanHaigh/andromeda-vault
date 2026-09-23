@@ -23,3 +23,15 @@ Use [[Topics/Cloud/Cloud Architecture]] to reason about deployment boundaries, [
 - [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/)
 - [Google Cloud Architecture Framework](https://cloud.google.com/architecture/framework)
 - [NIST SSDF](https://csrc.nist.gov/Projects/ssdf)
+
+## Senior engineering and technical leadership
+
+Use [[Topics/Senior Engineering/Index]] for the senior individual-contributor practice and [[Topics/Technical Leadership/Index]] for leading technical direction, planning, delivery, and team growth. The source collections are catalogued in [[Topics/External Reading/Engineering Leadership Resources]].
+
+## Business analysis and agentic development
+
+Technical leadership includes validating the business need, comparing process and software options, defining outcome measures, and making domain context legible to the delivery team. With coding agents, the lead also designs bounded tasks, repository context, test and evaluation loops, permissions, and human review points. Agents can accelerate implementation; engineering judgment remains responsible for whether the solution is safe, coherent, and valuable.
+
+- [[Topics/Business Analysis/Business Analysis and Solution Discovery]]
+- [[Topics/Business Analysis/Technical Leadership in Agentic Engineering]]
+- [[Topics/Business Analysis/Leadership Evidence and Development]]

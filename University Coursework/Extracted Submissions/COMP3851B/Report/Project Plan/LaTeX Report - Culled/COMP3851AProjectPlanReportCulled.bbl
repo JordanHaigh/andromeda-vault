@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{CruiseControl}
+T.~R. R, ``Speed control device for resisting operation of the accelerator,''
+  1950.
+
+\bibitem{WaymoProject}
+M.~Harris, ``How google’s autonomous car passed the first u.s. state
+  self-driving test,'' 2014.
+
+\bibitem{Unity3D}
+U.~Technologies, ``Unity,'' 2004.
+
+\bibitem{QLearningRobotControl}
+C.~Gaskett, ``Q-learning for robot control,'' no.~1, pp.~1--217, 2002.
+
+\bibitem{DeepQLearningReleasePaper}
+V.~Mnih, ``Human-level control through deep reinforcement learning,'' {\em
+  Nature}, vol.~518, no.~1, pp.~529--533, 2015.
+
+\end{thebibliography}

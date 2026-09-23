@@ -1,0 +1,10 @@
+# Intellij
+*.iws
+.idea/
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+*.txt

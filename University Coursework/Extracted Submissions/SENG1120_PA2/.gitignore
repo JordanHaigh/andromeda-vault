@@ -1,0 +1,8 @@
+*.pdf
+*.o
+*.gch
+Debug
+.vs
+*.db
+*.opendb
+*.tmp

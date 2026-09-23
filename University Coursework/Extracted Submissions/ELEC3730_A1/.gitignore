@@ -1,0 +1,10 @@
+*.cproject
+*.project
+/.settings
+*.wav
+*.bin
+*.exe
+*.exe
+/Debug
+*.exe
+*.txt

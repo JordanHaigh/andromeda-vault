@@ -1,0 +1,10 @@
+/Library
+/Temp
+/Logs
+/obj
+/Packages
+/ProjectSettings
+*.csprog
+*.sln
+
+/Assets/PhysicsMaterials

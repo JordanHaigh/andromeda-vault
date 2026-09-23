@@ -1,0 +1,10 @@
+CD19 FlingingFM
+main
+    a :integer,
+    n : integer
+begin
+    printline "heres a rhyme"
+    a = 5
+    n = 5;
+
+end CD19 FlingingFM

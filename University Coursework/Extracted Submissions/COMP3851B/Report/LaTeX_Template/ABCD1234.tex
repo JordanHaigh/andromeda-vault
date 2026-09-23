@@ -1,0 +1,438 @@
+\documentclass[8pt]{article} 
+
+% Formatting:
+% -----------------------------------------------------------------------------------------------
+\setlength{\oddsidemargin}{0cm} 
+\setlength{\topmargin}{0cm}
+\setlength{\textheight}{21cm}
+\setlength{\textwidth}{16.0cm}
+\setlength{\columnwidth}{16.0cm} 
+
+% Packages:
+% -----------------------------------------------------------------------------------------------
+\usepackage[intlimits]{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{latexsym}
+\usepackage{epsfig}
+\usepackage{color}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{lipsum} 
+\usepackage{listings}
+
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{courier}
+\usepackage{mdframed}
+\usepackage{pgfgantt}
+\usepackage{rotating}
+\usepackage{titling}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage[margin=50pt,font=small,labelfont=bf]{caption}
+%\usepackage{relsize}
+%\usepackage{tikz}
+
+%listings stuff
+% -----------------------------------------------------------------------------------------------
+\lstset{basicstyle=\footnotesize\ttfamily,breaklines=true}
+%\lstset{framextopmargin=50pt,frame=bottomline}
+\lstset{framextopmargin=50pt}
+
+
+% Table Shit from Bidski
+% ------
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1\textwidth}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1\textwidth}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1\textwidth}}
+
+% Theorem environments:
+% -----------------------------------------------------------------------------------------------
+\newtheorem{thm}{Theorem}
+\newtheorem{prp}{Proposition}
+\newtheorem{cor}{Corollary}
+\newtheorem{lem}{Lemma}
+\newtheorem{df}{Definition}
+\newtheorem{alg}{Algorithm}
+\newtheorem{con}{Conjecture}
+
+\graphicspath {figs/} 
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+
+\pagestyle{fancy}
+
+\lhead{ABCD1234}
+\chead{}
+\rhead{An introduction to Courses}
+%\rfoot{Right bottom}
+\cfoot{\thepage}
+%\lfoot{Left bottom}
+
+% Commands
+% -----------------------------------------------------------------------------------------------
+\newcommand{\inftyint}{\int_{-\infty}^{+\infty}}
+\newcommand{\unit}[1]{\ensuremath{\, \mathrm{#1}}}
+
+\newcommand{\executeiffilenewer}[3]{%
+\ifnum\pdfstrcmp{\pdffilemoddate{#1}}%
+{\pdffilemoddate{#2}}>0%
+{\immediate\write18{#3}}\fi%
+}
+\newcommand{\includesvg}[1]{%
+\executeiffilenewer{#1.svg}{#1.pdf}%
+{inkscape -z -D --file=#1.svg %
+--export-pdf=#1.pdf --export-latex}%
+\input{#1.pdf_tex}%
+}
+
+% -----------------------------------------------------------------------------------------------
+
+
+
+\begin{document}
+\numberwithin{equation}{section}
+
+%
+% ---- TITLE ------------------------------------------------------------------------------------
+% -----------------------------------------------------------------------------------------------
+%
+\title{
+	\includegraphics[scale=0.5]{UON_Logo}
+	\vspace{60pt}
+	\\ABCD1234 - Course of Courses
+	\\ \textbf {An introduction to Courses  
+	\\ for the purpose of courses!}
+}
+\author{
+	Daniel Bell \\
+	The University of Newcastle, Australia\\
+}
+\date{Last Revision: \today}
+% -----------------------------------------------------------------------------------------------
+
+
+\maketitle
+
+
+
+
+
+%      %%%
+%     %%%%
+%    %%%%%
+%   %%%%%%
+%      %%%
+%      %%%
+%      %%%
+%      %%%
+%      %%%
+%      %%%
+%   %%%%%%%%%
+%   %%%%%%%%%
+%
+%
+% ---- INTRODUCTION -----------------------------------------------------------------------------
+% -----------------------------------------------------------------------------------------------
+%
+\newpage
+
+\section{Introduction}
+\noindent Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum ante at pharetra vulputate. Mauris nec eleifend orci\cite{Alkaya20152}, in tempor eros. Ut gravida venenatis gravida. Sed sed lectus felis. Vestibulum volutpat posuere dignissim. Nam turpis orci, lobortis non nunc ut, consequat sagittis felis\cite{bock1958method}. 
+
+Pellentesque tempor posuere velit molestie porttitor. Integer purus nulla, posuere sed commodo ut, consectetur eu enim.
+
+Aliquam vulputate hendrerit urna, id accumsan magna facilisis sed. Duis lacinia nec leo in rhoncus. Vivamus nec massa elementum, porttitor nisl a, lobortis magna\cite{Grefenstette:1985:GAT:645511.657094}. Cras rhoncus semper elit, at accumsan neque sollicitudin et. Sed vel elit sem. Duis neque massa, congue in lobortis ac, finibus non leo. Sed sit amet fermentum nulla.
+
+Curabitur diam urna, malesuada sit amet orci molestie, viverra sollicitudin metus. Donec porta erat augue, ut feugiat felis facilisis et. Proin et nibh commodo, efficitur sem non, dignissim sem. Suspendisse eu libero ac elit pharetra dictum ut sed lorem. 
+
+
+
+
+\begin{mdframed}
+\noindent \textbf{Notes:}
+	
+\textit{Remember}, Fusce ante mauris, semper at ligula a, aliquam placerat justo. Proin eu lacinia orci. Nunc fermentum, enim ac tempus mollis, justo turpis dapibus odio, nec ultricies elit lorem nec ligula. Vivamus at tellus at ligula sodales congue eu vel orci. Vestibulum euismod dapibus mauris vehicula interdum. Curabitur id vehicula tortor, vel pretium erat. Proin congue, purus placerat sagittis ultricies, nisi erat imperdiet eros, in lacinia lorem erat at lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+\end{mdframed} 
+
+
+\begin{center}
+	\small
+	This work is Copyright \textcopyright \hspace{1pt} Daniel Bell 2018. Use without the authors permission is prohibited. 
+\end{center}
+
+
+
+
+\vspace{100pt} 
+\noindent For those interested, this document has been typeset in \LaTeX.
+
+\subsection{Version History}
+
+\noindent Draft Version 0.00 - \textbf{2018-08-04} Project Start
+
+\noindent Draft Version 0.01 - \textbf{2018-08-05} Framework Added, 
+
+
+\vspace{20pt}
+%
+% -----------------------------------------------------------------------------------------------
+%
+
+
+
+
+
+
+%      %%%%%
+%    %%%%%%%%%
+%   %%%     %%%
+%           %%%
+%           %%%
+%      %%%%%%%
+%    %%%%%%%
+%   %%%
+%   %%%
+%   %%%
+%   %%%%%%%%%%%
+%   %%%%%%%%%%%
+%
+%
+% -----------------------------------------------------------------------------------------------
+%
+
+\newpage
+\section{Vestibulum euismod dapibus mauris}
+
+Fusce ante mauris, semper at ligula a, aliquam placerat justo. Proin eu lacinia orci. Nunc fermentum, enim ac tempus mollis, justo turpis dapibus odio, nec ultricies elit lorem nec ligula. Vivamus at tellus at ligula sodales congue eu vel orci. Vestibulum euismod dapibus mauris vehicula interdum. Curabitur id vehicula tortor, vel pretium erat. Proin congue, purus placerat sagittis ultricies, nisi erat imperdiet eros, in lacinia lorem erat at lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+
+\subsection{Sed consectetur nisl?}
+Sed consectetur nisl in urna fringilla suscipit eget vitae enim. Morbi nulla libero, blandit convallis mollis eu, suscipit eget est. Pellentesque lobortis sapien in purus posuere vulputate. In a dapibus sem. Sed volutpat erat ut urna hendrerit mattis. Phasellus dapibus venenatis metus quis facilisis. Vivamus ac quam congue, interdum ligula in, finibus erat. Integer non augue nec quam consequat faucibus quis accumsan justo. Quisque sollicitudin accumsan magna fringilla laoreet. Praesent auctor nibh eget sapien sodales, sagittis vehicula metus placerat.
+
+\begin{itemize}
+	\item item 1 at \texttt{www.texstudio.com}
+	\item item 2
+	\item item 3
+	\item item 4
+\end{itemize}
+\vspace{5pt}
+
+Quisque sollicitudin accumsan magna fringilla laoreet. Praesent auctor nibh eget sapien sodales, sagittis vehicula metus placerat.
+
+\subsection{Urna hendrerit mattis?}
+
+Ut non diam vel ligula tristique tempor sed in eros. Suspendisse efficitur ante eget libero iaculis, sit amet iaculis lorem rutrum. Curabitur suscipit tempus ipsum. Praesent et semper elit. Fusce pellentesque diam erat, quis luctus tellus sollicitudin eu:
+
+\vspace{10pt}
+\begin{lstlisting}
+    #include <iostream>
+    using namespace std;
+
+    int main() {
+    	cout << "Hello World" << endl;
+    	return 0;
+    }
+\end{lstlisting}
+\vspace{5pt}
+
+
+
+
+
+
+
+
+
+%      %%%%%
+%    %%%%%%%%%
+%   %%%     %%%
+%           %%%
+%           %%%
+%      %%%%%%%
+%      %%%%%%%
+%           %%%
+%           %%%
+%   %%%     %%%
+%    %%%%%%%%%
+%      %%%%%
+%
+%
+% -----------------------------------------------------------------------------------------------
+%
+
+\newpage
+\section{Interdum ligula in}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%          %%%
+%         %%%
+%        %%%
+%       %%%
+%      %%%
+%     %%% %%%
+%    %%%  %%%
+%   %%%%%%%%%%%
+%   %%%%%%%%%%%
+%         %%%   
+%         %%%   
+%         %%%    
+%
+%
+% -----------------------------------------------------------------------------------------------
+%
+
+\newpage
+\section{Finibus erat? Kepler Fidelis!}
+
+
+
+
+
+
+
+
+
+
+%   %%%%%%%%%%%
+%   %%%%%%%%%%%
+%   %%% 
+%   %%%
+%   %% %%%%%
+%   %%%%%%%%%%
+%           %%%
+%           %%%
+%           %%%
+%   %%%     %%%
+%    %%%%%%%%%
+%      %%%%%
+%
+%
+% -----------------------------------------------------------------------------------------------
+%
+
+
+
+
+
+
+
+%      %%%%%
+%    %%%%%%%%%
+%   %%%     %%%
+%   %%%
+%   %% %%%%%
+%   %%%%%%%%%%
+%   %%%     %%%
+%   %%%     %%%
+%   %%%     %%%
+%   %%%     %%%
+%    %%%%%%%%%
+%      %%%%%
+%
+%
+% -----------------------------------------------------------------------------------------------
+%
+
+
+
+
+
+
+
+%   %%%%%%%%%%%
+%   %%%%%%%%%%%
+%           %%%
+%           %%%
+%          %%%
+%         %%%
+%        %%%
+%       %%%
+%       %%%
+%       %%% 
+%       %%%
+%       %%%
+%
+%
+% -----------------------------------------------------------------------------------------------
+%
+
+
+
+
+
+
+
+
+%      %%%%%
+%    %%%%%%%%%
+%   %%%     %%%
+%   %%%     %%%
+%   %%%     %%%
+%      %%%%%
+%   %%%%%%%%%%
+%   %%%     %%%
+%   %%%     %%%
+%   %%%     %%%
+%    %%%%%%%%%
+%      %%%%%
+%
+%
+% -----------------------------------------------------------------------------------------------
+%
+
+
+
+
+
+
+%      %%%%%
+%    %%%%%%%%%
+%   %%%     %%%
+%   %%%     %%%
+%   %%%     %%%
+%   %%%     %%%
+%    %%%%%%%%%%
+%      %%%%% %%
+%           %%%
+%   %%%     %%%
+%    %%%%%%%%%
+%      %%%%%
+%
+%
+% -----------------------------------------------------------------------------------------------
+%
+
+\newpage
+
+%
+% ---- BIBTEX STUFF -----------------------------------------------------------------------------
+\bibliographystyle{plain}
+\bibliography{ABCD1234}
+% ABCD1234 is out BibTeX file
+% -----------------------------------------------------------------------------------------------
+%
+
+\end{document}

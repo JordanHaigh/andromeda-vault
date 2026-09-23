@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{Alkaya20152}
+Ali~Fuat Alkaya and Ekrem Duman.
+\newblock Combining and solving sequence dependent traveling salesman and
+  quadratic assignment problems in \{PCB\} assembly.
+\newblock {\em Discrete Applied Mathematics}, 192:2 -- 16, 2015.
+\newblock 11th Cologne/Twente Workshop on Graphs and Combinatorial Optimization
+  (CTW 2012).
+
+\bibitem{bock1958method}
+F.~Bock.
+\newblock An algorithm for solving traveling-salesman and related network
+  optimization.
+\newblock Technical report, Operations Research Society of America 14th
+  National Meeting, St. Louis, 1958.
+
+\bibitem{Grefenstette:1985:GAT:645511.657094}
+John~J. Grefenstette, Rajeev Gopal, Brian~J. Rosmaita, and Dirk~Van Gucht.
+\newblock Genetic algorithms for the traveling salesman problem.
+\newblock In {\em Proceedings of the 1st International Conference on Genetic
+  Algorithms}, pages 160--168, Hillsdale, NJ, USA, 1985. L. Erlbaum Associates
+  Inc.
+
+\end{thebibliography}

@@ -13,6 +13,10 @@ The extracted GitHub working folders have been removed; readable Markdown materi
 - [Cosmos / OpenGenus](https://github.com/OpenGenus/cosmos)
 - [Every Programmer Should Know](https://github.com/mtdvio/every-programmer-should-know)
 - [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
+- [Engineering leadership resources](https://github.com/gregorojstersek/resources-to-become-a-great-engineering-leader)
+- [Senior Developer Roadmap](https://github.com/glennsantos/senior-developer-roadmap/)
+- [Tech Lead Roadmap](https://github.com/glennsantos/tech-lead-roadmap)
+- [Technical leadership and career resources](https://github.com/Jareechang/awesome-technical-leadership-and-career-resources)
 
 ## Topic maps
 
@@ -53,6 +57,13 @@ The readable source material is preserved in the topic tree. Use these catalog p
 - [[Topics/Collections/Design Tools]] — design tool resources.
 - [[Topics/Collections/Build by Reimplementation]] — implementation exercises.
 
+## University coursework
+
+- [[Topics/University Assignments/Index]]
+
+- [[Topics/Senior Engineering/Index]]
+- [[Topics/Technical Leadership/Index]]
+- [[Topics/External Reading/Engineering Leadership Resources]]
 ## Explore engineering topics
 
 - [[Topics/Software Engineering/Index]]

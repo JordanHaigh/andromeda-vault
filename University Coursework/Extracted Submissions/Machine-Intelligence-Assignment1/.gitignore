@@ -1,0 +1,6 @@
+/venv
+*.xml
+/.vscode
+mushrooms/*.csv
+/tmp
+/outputs

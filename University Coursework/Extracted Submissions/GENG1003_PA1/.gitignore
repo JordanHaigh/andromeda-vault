@@ -1,0 +1,7 @@
+.vs
+ipch
+*.db
+*.opendb
+*.filters
+Debug
+*.TMP

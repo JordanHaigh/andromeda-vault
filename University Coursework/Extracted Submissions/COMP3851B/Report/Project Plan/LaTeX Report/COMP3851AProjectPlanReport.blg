@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: COMP3851AProjectPlanReport.aux
+The style file: ieeetr.bst
+Database file #1: COMP3851AProjectPlanReport.bib
+You're missing a field name---line 8 of file COMP3851AProjectPlanReport.bib
+ :  urldate = {2019-03-04}, 
+ :                          %yyyy-mm-dd
+I'm skipping whatever remains of this entry
+Warning--entry type for "Unity3D" isn't style-file defined
+--line 21 of file COMP3851AProjectPlanReport.bib
+You're missing a field name---line 26 of file COMP3851AProjectPlanReport.bib
+ :  urldate = {2019-03-27}, 
+ :                          %yyyy-mm-dd
+I'm skipping whatever remains of this entry
+Warning--entry type for "MarkovDecisionProcess" isn't style-file defined
+--line 42 of file COMP3851AProjectPlanReport.bib
+You're missing a field name---line 47 of file COMP3851AProjectPlanReport.bib
+ :  urldate = {2019-03-30}, 
+ :                          %yyyy-mm-dd
+I'm skipping whatever remains of this entry
+Warning--entry type for "CruiseControl" isn't style-file defined
+--line 55 of file COMP3851AProjectPlanReport.bib
+Warning--entry type for "WaymoProject" isn't style-file defined
+--line 63 of file COMP3851AProjectPlanReport.bib
+You're missing a field name---line 68 of file COMP3851AProjectPlanReport.bib
+ :  urldate = {2019-03-27}, 
+ :                          %yyyy-mm-dd
+I'm skipping whatever remains of this entry
+Warning--entry type for "TelstraAutopilot" isn't style-file defined
+--line 71 of file COMP3851AProjectPlanReport.bib
+I was expecting a `,' or a `}'---line 76 of file COMP3851AProjectPlanReport.bib
+ :  urldate = {2019-03-27,} 
+ :                          %yyyy-mm-dd
+I'm skipping whatever remains of this entry
+Warning--entry type for "QLearningTabular" isn't style-file defined
+--line 108 of file COMP3851AProjectPlanReport.bib
+You're missing a field name---line 113 of file COMP3851AProjectPlanReport.bib
+ :  urldate = {2019-03-27}, 
+ :                          %yyyy-mm-dd
+I'm skipping whatever remains of this entry
+Warning--entry type for "DeepQLearning" isn't style-file defined
+--line 117 of file COMP3851AProjectPlanReport.bib
+You're missing a field name---line 123 of file COMP3851AProjectPlanReport.bib
+ :  urldate = {2019-03-27}, 
+ :                          %yyyy-mm-dd
+I'm skipping whatever remains of this entry
+Warning--empty journal in QLearningRobotControl
+(There were 7 error messages)

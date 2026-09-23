@@ -1,0 +1,15 @@
+1: CD19 test
+2: constants
+3:     MYCONST = 10, SECOND = 1
+4: 
+5: main
+6:     i : real, j : integer, k : integer
+7: 
+8: begin
+9:     printline MYCONST;
+10:     i = 10 + MYCONST;
+11:     printline i;
+12: 
+13: end
+14: 
+15: CD19 test
