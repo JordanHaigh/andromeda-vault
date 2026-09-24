@@ -8,6 +8,15 @@ This topic map connects API design, data, security, delivery, operations, and ar
 - [[Topics/Technical Leadership/Index]]
 - [[Topics/External Reading/Engineering Leadership Resources]]
 
+## Case studies and benefits
+
+- [[Topics/Case Studies/Index]]
+
+- [[Topics/Case Studies/Reliable Data Import]]
+- [[Topics/Case Studies/Versioned API and Online Migration]]
+- [[Topics/Business Analysis/Benefits Realisation and Outcome Measurement]]
+- [[Topics/Business Analysis/Agentic Delivery Pilot and Evaluation]]
+
 ## Business analysis and leadership
 
 - [[Topics/Business Analysis/Index]]
@@ -16,6 +25,8 @@ This topic map connects API design, data, security, delivery, operations, and ar
 - [[Topics/Business Analysis/Leadership Evidence and Development]]
 
 ## Architecture and operations
+
+- [[Topics/Platform Engineering and Developer Experience]]
 
 - [[Topics/Architecture and Senior Engineering]]
 - [[Topics/Cloud/Cloud Architecture]]

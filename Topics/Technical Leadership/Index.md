@@ -6,6 +6,9 @@ Technical leadership is distinct from line management, though roles can overlap.
 
 ## Practice areas
 
+- [[Topics/Technical Leadership/Organizational Influence and Cross-Team Leadership]] — align decision rights, strategy, and investment across groups.
+- [[Topics/Technical Leadership/People Leadership Beyond Mentoring]] — feedback, conflict, sustainable workload, hiring, and continuity.
+
 - [[Topics/Technical Leadership/Technical Strategy and Architecture Stewardship]] — direction, principles, boundaries, and incremental evolution.
 - [[Topics/Technical Leadership/Planning and Delivery]] — scope, sequencing, dependencies, risk, and delivery feedback.
 - [[Topics/Technical Leadership/Team Leadership and Coaching]] — trust, mentoring, delegation, review, and shared ownership.

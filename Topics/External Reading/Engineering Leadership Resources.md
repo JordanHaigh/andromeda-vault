@@ -20,6 +20,12 @@ A curated entry point for the four user-supplied repositories. The vault's pract
 
 ## Vault guides informed by these resources
 
+- [[Topics/Technical Leadership/Organizational Influence and Cross-Team Leadership]]
+- [[Topics/Technical Leadership/People Leadership Beyond Mentoring]]
+- [[Topics/Business Analysis/Benefits Realisation and Outcome Measurement]]
+- [[Topics/Business Analysis/Agentic Delivery Pilot and Evaluation]]
+- [[Topics/Case Studies/Index]]
+
 - [[Topics/Senior Engineering/Index]]
 - [[Topics/Senior Engineering/Technical Judgment and Decision Making]]
 - [[Topics/Senior Engineering/Communication and Influence]]

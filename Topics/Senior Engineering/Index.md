@@ -37,6 +37,16 @@ Keep evidence factual: state the situation, your decisions and actions, who work
 
 ## Connected guides
 
+- [[Topics/Business Analysis/Product Strategy and Commercial Judgment]]
+- [[Topics/Business Analysis/Service Design, Accessibility, and Adoption]]
+- [[Topics/Platform Engineering and Developer Experience]]
+
+- [[Topics/Technical Leadership/Organizational Influence and Cross-Team Leadership]]
+- [[Topics/Technical Leadership/People Leadership Beyond Mentoring]]
+- [[Topics/Business Analysis/Benefits Realisation and Outcome Measurement]]
+- [[Topics/Business Analysis/Agentic Delivery Pilot and Evaluation]]
+- [[Topics/Case Studies/Index]]
+
 - [[Topics/Technical Leadership/Index]]
 - [[Topics/Business Analysis/Index]]
 - [[Topics/Architecture and Senior Engineering]]

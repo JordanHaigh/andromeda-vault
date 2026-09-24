@@ -68,6 +68,11 @@ Review intent and behavior, not just syntax. Check whether the change solves the
 - [[Topics/Deployment and Cloud]]
 - [[Topics/Cloud/Cloud Architecture]]
 
+## Further practice
+
+- [[Topics/Business Analysis/Agentic Delivery Pilot and Evaluation]]
+- [[Topics/Business Analysis/Benefits Realisation and Outcome Measurement]]
+
 ## References
 
 - [OpenAI: Harness engineering in an agent-first world](https://openai.com/index/harness-engineering/)

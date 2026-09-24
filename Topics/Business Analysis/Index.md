@@ -4,6 +4,12 @@ These notes connect business needs to software outcomes, architecture, team deli
 
 ## Core guides
 
+- [[Topics/Business Analysis/Product Strategy and Commercial Judgment]] — frame choices through strategy, unit economics, TCO, and measurable value.
+- [[Topics/Business Analysis/Service Design, Accessibility, and Adoption]] — design the complete inclusive service and plan adoption.
+
+- [[Topics/Business Analysis/Benefits Realisation and Outcome Measurement]] — connect delivery to measured outcomes, costs, and learning.
+- [[Topics/Business Analysis/Agentic Delivery Pilot and Evaluation]] — run and evaluate a bounded agentic workflow.
+
 - [[Topics/Business Analysis/Business Analysis and Solution Discovery]] — investigate a need, model the current situation, compare options, and define measurable outcomes.
 - [[Topics/Business Analysis/Technical Leadership in Agentic Engineering]] — shape the environment, constraints, delegation, review, and feedback loops for software agents.
 - [[Topics/Business Analysis/Leadership Evidence and Development]] — connect current experience to senior-level strengths and identify deliberate next steps.

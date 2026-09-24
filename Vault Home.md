@@ -64,7 +64,18 @@ The readable source material is preserved in the topic tree. Use these catalog p
 - [[Topics/Senior Engineering/Index]]
 - [[Topics/Technical Leadership/Index]]
 - [[Topics/External Reading/Engineering Leadership Resources]]
+## Senior engineering and applied case studies
+
+- [[Topics/Case Studies/Index]]
+
+- [[Topics/Senior Engineering/Index]] · [[Topics/Technical Leadership/Index]]
+- [[Topics/Business Analysis/Benefits Realisation and Outcome Measurement]]
+- [[Topics/Case Studies/Reliable Data Import]] · [[Topics/Case Studies/Versioned API and Online Migration]]
+
 ## Explore engineering topics
+
+- [[Topics/Business Analysis/Product Strategy and Commercial Judgment]] · [[Topics/Business Analysis/Service Design, Accessibility, and Adoption]]
+- [[Topics/Platform Engineering and Developer Experience]]
 
 - [[Topics/Software Engineering/Index]]
 - [[Topics/Cloud/Azure/Index]]

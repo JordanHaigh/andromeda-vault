@@ -40,6 +40,8 @@ Build on stakeholder and architecture experience by practicing a consistent disc
 - Deliver a thin slice with observable acceptance criteria and a plan to measure value.
 - Return after release to compare results with the baseline and decide what to change next.
 
+The vault now includes practical guides for [[Topics/Technical Leadership/Organizational Influence and Cross-Team Leadership]], [[Topics/Technical Leadership/People Leadership Beyond Mentoring]], [[Topics/Business Analysis/Benefits Realisation and Outcome Measurement]], and [[Topics/Business Analysis/Agentic Delivery Pilot and Evaluation]]. The development gap is applying these practices to current work and collecting evidence, rather than writing more generic definitions.
+
 ## Development direction: from technical lead to capability builder
 
 Choose deliberate practice goals that extend current strengths:
@@ -61,6 +63,11 @@ Choose deliberate practice goals that extend current strengths:
 - When agents perform more implementation, which judgment and accountability should remain explicitly human?
 
 ## Related topics
+
+- [[Topics/Technical Leadership/Organizational Influence and Cross-Team Leadership]]
+- [[Topics/Technical Leadership/People Leadership Beyond Mentoring]]
+- [[Topics/Business Analysis/Benefits Realisation and Outcome Measurement]]
+- [[Topics/Business Analysis/Agentic Delivery Pilot and Evaluation]]
 
 - [[Topics/Business Analysis/Business Analysis and Solution Discovery]]
 - [[Topics/Business Analysis/Technical Leadership in Agentic Engineering]]
